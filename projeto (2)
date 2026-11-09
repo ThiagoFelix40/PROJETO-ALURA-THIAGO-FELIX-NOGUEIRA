@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Um blog dedicado ao conhecimento, à história e à análise do futebol.">
+
+    <title>Mente Tática | Conhecimento do Futebol</title>
+
+    <style>
+        /* CONFIGURAÇÕES GERAIS */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f5f3;
+            color: #202b32;
+            line-height: 1.6;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #102b26;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: #c8ddd3;
+            margin-top: 5px;
+        }
+
+        /* MENU */
+
+        nav {
+            background-color: #174b3d;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a8e6c5;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .introducao {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .introducao h2 {
+            color: #174b3d;
+            margin-bottom: 10px;
+        }
+
+        /* ARTIGOS */
+
+        .artigos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        article {
+            background-color: white;
+            padding: 22px;
+            border-radius: 10px;
+            border-bottom: 4px solid #247c5d;
+            transition: transform 0.2s;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+        }
+
+        article h3 {
+            color: #174b3d;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            color: #526068;
+            margin-bottom: 15px;
+        }
+
+        .categoria {
+            color: #247c5d;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #102b26;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            color: #c8ddd3;
+        }
+
+        /* RESPONSIVIDADE */
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            main {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+        <h1>MENTE TÁTICA</h1>
+        <p>O conhecimento por trás do futebol.</p>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#taticas">Táticas</a>
+        <a href="#historia">História</a>
+        <a href="#regras">Regras</a>
+    </nav>
+
+    <!-- CONTEÚDO -->
+
+    <main>
+
+        <section class="introducao" id="inicio">
+            <h2>Bem-vindo ao Mente Tática!</h2>
+
+            <p>
+                O futebol vai muito além de gols e resultados.
+                Aqui você encontra conhecimentos sobre estratégias,
+                história, regras, jogadores e curiosidades do esporte.
+            </p>
+        </section>
+
+        <section class="artigos">
+
+            <article id="taticas">
+                <span class="categoria">Tática e Estratégia</span>
+
+                <h3>Como funciona o esquema 4-3-3?</h3>
+
+                <p>
+                    Entenda como os quatro defensores, três meio-campistas
+                    e três atacantes se organizam dentro de campo.
+                </p>
+            </article>
+
+            <article id="historia">
+                <span class="categoria">História do Futebol</span>
+
+                <h3>A evolução do futebol</h3>
+
+                <p>
+                    Conheça a história do esporte e como suas regras,
+                    competições e estilos de jogo evoluíram ao longo do tempo.
+                </p>
+            </article>
+
+            <article id="regras">
+                <span class="categoria">Regras do Futebol</span>
+
+                <h3>Entendendo a regra do impedimento</h3>
+
+                <p>
+                    Aprenda como funciona o impedimento e por que essa
+                    regra é tão importante para o futebol.
+                </p>
+            </article>
+
+            <article>
+                <span class="categoria">Análise de Jogo</span>
+
+                <h3>A importância do meio-campo</h3>
+
+                <p>
+                    Descubra como o meio-campo influencia a construção
+                    das jogadas, a marcação e o controle da partida.
+                </p>
+            </article>
+
+            <article>
+                <span class="categoria">Curiosidades</span>
+
+                <h3>Por que existem diferentes posições?</h3>
+
+                <p>
+                    Conheça as funções dos goleiros, zagueiros,
+                    laterais, volantes, meias e atacantes.
+                </p>
+            </article>
+
+            <article>
+                <span class="categoria">Preparação Física</span>
+
+                <h3>A importância do condicionamento físico</h3>
+
+                <p>
+                    Entenda como resistência, velocidade, força e
+                    recuperação contribuem para o desempenho dos atletas.
+                </p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+        <h3>MENTE TÁTICA</h3>
+
+        <p>
+            Conhecimento, análise e paixão pelo futebol.
+        </p>
+
+        <p>
+            &copy; 2026 - Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
+
